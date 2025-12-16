@@ -11,11 +11,10 @@ export function GiftsSection() {
           <Gift className="w-8 h-8 text-primary" />
         </div>
 
-        <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6 text-balance">Lista de Presentes</h2>
+        <h2 className="text-4xl md:text-5xl font-serif text-foreground mb-6 text-balance">GUIA DE PRESENTES</h2>
 
-        <p className="text-lg md:text-xl text-muted-foreground font-light mb-10 max-w-2xl mx-auto text-pretty leading-relaxed">
-          Sua presença é o nosso maior presente. Mas se desejar nos presentear, preparamos uma lista especial com
-          carinho.
+        <p className="text-2xl md:text-3xl font-serif mb-12 max-w-3xl mx-auto text-pretty leading-relaxed">
+          Se deseja nos presentear, preparamos um guia especial com diversas sugestões. Agradecemos o seu carinho!
         </p>
 
         <Button asChild size="lg" className="gap-2 text-base md:text-lg px-8 py-6">

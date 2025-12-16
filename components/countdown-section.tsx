@@ -54,7 +54,7 @@ export function CountdownSection() {
   return (
     <section className="py-24 md:py-32 px-4 bg-secondary">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-light text-center mb-16 text-secondary-foreground text-balance">
+        <h2 className="text-4xl md:text-5xl font-serif text-center mb-16 text-secondary-foreground text-balance">
           CONTAGEM REGRESSIVA
         </h2>
 
