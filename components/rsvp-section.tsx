@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function RsvpSection() {
   const whatsappNumber = "5518997382850"
-  const message = encodeURIComponent("Olá! Gostaria de confirmar minha presença no casamento de ALice & Gabriel.")
+  const message = encodeURIComponent("Olá! Gostaria de confirmar minha presença no casamento de Alice & Gabriel.")
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`
 
   return (
