@@ -16,9 +16,6 @@ export function CeremonySection() {
             priority
           />
 
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-black/30" />
-
         </div>
 
         {/* HEADER */}
