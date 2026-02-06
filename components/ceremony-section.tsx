@@ -7,15 +7,18 @@ export function CeremonySection() {
       <div className="max-w-4xl mx-auto">
 
         {/* BANNER */}
-        <div className="relative w-full h-[300px] md:h-[360px] rounded-xl overflow-hidden mb-16">
+        <div className="relative w-full h-[240px] sm:h-[280px] md:h-[360px] rounded-xl overflow-hidden mb-16">
           <Image
             src="/passagem1.png"
             alt="Passagem 1"
             fill
-            className="object-cover"
             priority
+            className="
+              object-contain md:object-cover
+              object-center
+              bg-[#f6efe9]
+            "
           />
-
         </div>
 
         {/* HEADER */}
