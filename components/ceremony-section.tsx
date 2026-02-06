@@ -9,7 +9,7 @@ export function CeremonySection() {
         {/* BANNER */}
         <div className="relative w-full h-[240px] md:h-[360px] rounded-xl overflow-hidden mb-16">
           <Image
-            src="/passagem1.pnj"
+            src="/passagem1.png"
             alt="Passagem 1"
             fill
             className="object-cover"
