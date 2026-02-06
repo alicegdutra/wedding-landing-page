@@ -1,10 +1,32 @@
+import Image from "next/image"
 import { Church, Clock, MapPin } from "lucide-react"
 
 export function CeremonySection() {
   return (
     <section className="py-24 md:py-32 px-4 bg-background">
       <div className="max-w-4xl mx-auto">
-        
+
+        {/* BANNER */}
+        <div className="relative w-full h-[240px] md:h-[360px] rounded-xl overflow-hidden mb-16">
+          <Image
+            src="/passagem1.jpg"
+            alt="Passagem 1"
+            fill
+            className="object-cover"
+            priority
+          />
+
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/30" />
+
+          {/* Texto do banner */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h1 className="text-white text-3xl md:text-5xl font-serif tracking-wide">
+              Passagem 1
+            </h1>
+          </div>
+        </div>
+
         {/* HEADER */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6">
