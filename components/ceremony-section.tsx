@@ -19,6 +19,7 @@ export function CeremonySection() {
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/30" />
 
+        </div>
 
         {/* HEADER */}
         <div className="text-center mb-16">
