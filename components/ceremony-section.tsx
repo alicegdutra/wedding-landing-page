@@ -19,13 +19,6 @@ export function CeremonySection() {
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/30" />
 
-          {/* Texto do banner */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-white text-3xl md:text-5xl font-serif tracking-wide">
-              Passagem 1
-            </h1>
-          </div>
-        </div>
 
         {/* HEADER */}
         <div className="text-center mb-16">
