@@ -6,21 +6,6 @@ export function CeremonySection() {
     <section className="py-24 md:py-32 px-4 bg-background">
       <div className="max-w-4xl mx-auto">
 
-        {/* BANNER */}
-        <div className="relative w-full h-[240px] sm:h-[280px] md:h-[360px] rounded-xl overflow-hidden mb-16">
-          <Image
-            src="/passagem1.png"
-            alt="Passagem 1"
-            fill
-            priority
-            className="
-              object-contain md:object-cover
-              object-center
-              bg-[#f6efe9]
-            "
-          />
-        </div>
-
         {/* HEADER */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6">
