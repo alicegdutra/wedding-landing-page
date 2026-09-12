@@ -2,7 +2,7 @@ import { Gift, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function GiftsSection() {
-  const giftsListUrl = "https://exemplo.com/lista-de-presentes"
+  const giftsListUrl = "https://lista.havan.com.br/Convidado/ItensListaPresente/947704"
 
   return (
     <section className="py-24 md:py-32 px-4 bg-background">
@@ -18,7 +18,7 @@ export function GiftsSection() {
         </p>
 
         <Button asChild size="lg" className="gap-2 text-base md:text-lg px-8 py-6">
-          <a href={"https://lista.havan.com.br/Convidado/ItensListaPresente/947704"} target="_blank" rel="noopener noreferrer">
+          <a href={giftsListUrl} target="_blank" rel="noopener noreferrer">
             Ver Lista de Presentes
             <ExternalLink className="w-5 h-5" />
           </a>
