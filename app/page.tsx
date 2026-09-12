@@ -17,7 +17,6 @@ export default function WeddingPage() {
       <PhotoGallery position="first" />
       <CeremonySection />
       <ReceptionSection />
-      <PhotoGallery position="second" />
       <GiftsSection />
       <RsvpSection />
       <Footer />
