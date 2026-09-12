@@ -18,7 +18,7 @@ export function GiftsSection() {
         </p>
 
         <Button asChild size="lg" className="gap-2 text-base md:text-lg px-8 py-6">
-          <a href={giftsListUrl} target="_blank" rel="noopener noreferrer">
+          <a href={"https://lista.havan.com.br/Convidado/ItensListaPresente/947704"} target="_blank" rel="noopener noreferrer">
             Ver Lista de Presentes
             <ExternalLink className="w-5 h-5" />
           </a>
