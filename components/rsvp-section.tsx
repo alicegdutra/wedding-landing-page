@@ -16,7 +16,7 @@ export function RsvpSection() {
         <h2 className="text-4xl md:text-5xl font-serif mb-6 text-balance">CONFIRME SUA PRESENÇA</h2>
 
         <p className="text-2xl md:text-3xl font-serif mb-12 max-w-3xl mx-auto text-pretty leading-relaxed opacity-90">
-          Será uma alegria contar com você neste dia especial. Por favor, confirme sua presença até o dia .
+          Será uma alegria contar com você neste dia especial. Por favor, confirme sua presença até o dia 09/12.
         </p>
 
         <Button asChild size="lg" variant="secondary" className="gap-2 text-base md:text-lg px-8 py-6">
