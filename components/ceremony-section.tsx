@@ -27,7 +27,7 @@ export function CeremonySection() {
           <div className="flex items-start gap-4">
             <Clock className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
             <div>
-              <p className="text-black font-light text-xl md:text-2xl">às 16h30.</p>
+              <p className="text-black font-light text-xl md:text-2xl">às 17h.</p>
             </div>
           </div>
         </div>
