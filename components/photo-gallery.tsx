@@ -1,5 +1,5 @@
 interface PhotoGalleryProps {
-  position: "first" | "second"
+  position: "first"
 }
 
 export function PhotoGallery({ position }: PhotoGalleryProps) {
