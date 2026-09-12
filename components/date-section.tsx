@@ -2,33 +2,46 @@ import { Calendar } from "lucide-react"
 
 export function DateSection() {
   return (
-    <section className="py-24 md:py-32 px-4 bg-background">
-      <div className="max-w-4xl mx-auto text-center space-y-8">
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-black/10">
+    <section className="relative py-32 md:py-40 px-4 bg-background">
+      <div className="max-w-4xl mx-auto text-center space-y-12">
+
+        {/* ÍCONE */}
+        <div className="mx-auto inline-flex items-center justify-center w-20 h-20 rounded-full border border-primary/30 bg-primary/5 shadow-sm">
           <Calendar className="w-8 h-8 text-primary" />
         </div>
 
-        <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl font-light text-black text-balance">
-            Save the Date!
-          </h2>
+        {/* TÍTULO */}
+        <h2 className="font-serif text-4xl md:text-5xl font-light text-primary tracking-[0.25em]">
+          SAVE THE DATE
+        </h2>
 
-          <div className="pt-4">
-            <p className="text-7xl md:text-5xl font-light text-primary tracking-tight">
-              09
-            </p>
-            <p className="text-3xl md:text-5xl font-light text-primary tracking-widest uppercase mt-4">
-              Janeiro
-            </p>
-            <p className="text-5xl md:text-5xl font-light text-primary">
-              2027
-            </p>
-          </div>
+        {/* SEPARADOR */}
+        <div className="flex items-center justify-center gap-3">
+          <span className="w-14 h-px bg-primary/30" />
+          <span className="w-2 h-2 rounded-full bg-primary/40" />
+          <span className="w-14 h-px bg-primary/30" />
         </div>
 
-        <p className="text-black font-light text-xl md:text-2xl">
+        {/* DATA */}
+        <div className="pt-8 space-y-2">
+          <p className="font-serif text-7xl md:text-8xl font-light text-black/90 leading-none">
+            09
+          </p>
+
+          <p className="font-serif text-3xl md:text-4xl uppercase tracking-widest text-black/70">
+            Janeiro
+          </p>
+
+          <p className="font-serif text-4xl md:text-5xl font-light text-black/80">
+            2027
+          </p>
+        </div>
+
+        {/* TEXTO */}
+        <p className="max-w-3xl mx-auto font-serif text-2xl md:text-3xl text-black/70 leading-relaxed pt-8">
           Sua presença tornará este momento ainda mais especial para nós.
         </p>
+
       </div>
     </section>
   )

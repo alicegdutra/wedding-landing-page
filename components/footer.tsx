@@ -8,9 +8,9 @@ export function Footer() {
           <Heart className="w-5 h-5 text-primary fill-primary" />
         </div>
 
-        <p className="text-2xl md:text-3xl font-light text-balance">Alice & Gabriel</p>
+        <p className="text-2xl md:text-3xl font-serif text-balance">ALICE & GABRIEL</p>
 
-        <p className="text-sm text-muted-foreground font-light">09 de Janeiro de 2027</p>
+        <p className="text-2xl text-muted-foreground font-serif">09 de Janeiro de 2027</p>
       </div>
     </footer>
   )

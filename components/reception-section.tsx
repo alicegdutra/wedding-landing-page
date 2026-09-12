@@ -11,7 +11,7 @@ export function ReceptionSection() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6">
             <PartyPopper className="w-8 h-8 text-primary" />
           </div>
-          <h2 className="text-4xl md:text-5xl font-light text-secondary-foreground text-balance">RECEPÇÃO</h2>
+          <h2 className="text-4xl md:text-5xl font-serif text-secondary-foreground text-balance">RECEPÇÃO</h2>
         </div>
 
         <div className="bg-card rounded-lg p-8 md:p-12 shadow-sm space-y-8">
