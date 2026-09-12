@@ -3,10 +3,7 @@ interface PhotoGalleryProps {
 }
 
 export function PhotoGallery({ position }: PhotoGalleryProps) {
-  const images =
-    position === "first"
-      ? ["/casal2.jpg", "/casal3.jpg"]
-      : ["/casal4.jpg", "/casal5.jpg"]
+  const images = ["/casal2.jpg", "/casal3.jpg"]
 
   return (
     <section className="py-16 md:py-24 px-4 bg-muted/30">
