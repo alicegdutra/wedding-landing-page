@@ -19,11 +19,11 @@ export function CeremonySection() {
             <MapPin className="w-7 h-7 text-primary flex-shrink-0 mt-1" />
 
             <div>
-              <h3 className="font-serif text-2xl md:text-3xl text-foreground">
+              <h3 className="font-light text-2xl md:text-3xl text-foreground">
                 Santuário Nossa Senhora Aparecida
               </h3>
 
-              <p className="font-serif text-xl md:text-2xl text-foreground">
+              <p className="font-light text-xl md:text-2xl text-foreground">
                 R. Antônio Lopes de Azevedo, 74 - Vila Marcondes
                 <br />
                 Pres. Prudente - SP, 19030-120
@@ -35,7 +35,7 @@ export function CeremonySection() {
             <Clock className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
 
             <div>
-              <p className="font-serif text-xl md:text-2xl text-foreground">
+              <p className="font-light text-xl md:text-2xl text-foreground">
                 às 17h
               </p>
             </div>
